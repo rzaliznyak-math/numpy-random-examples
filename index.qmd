@@ -1,0 +1,25 @@
+---
+title: "The Power of Data Simulation Part II"
+subtitle: "Practical Uses of NumPy Random Generator for AB Testing"
+author: "Russ Zaliznyak <[rzaliznyak@gmail.com](mailto:rzaliznyak@gmail.com)>"
+date: "2025-01-20"
+execute:
+  echo: false
+format: 
+  html: 
+    css: style.css
+    toc: true
+    toc-expand: true
+    toc-indent: 1em
+jupyter: python3
+---
+
+
+# Introduction: Stop Taking People's Word for It
+
+
+Building on our previous article [The Power of Data Simulation](https://rzaliznyak-math.github.io/random/){target="_blank"}, here we delve deeper into the practical applications of NumPy's random number generation for AB Testing. 
+
+You'll learn to simulate null distributions and understand p-values, crucial concepts in statistical analysis. We'll demonstrate how to generate millions of AB test time-series simulations in seconds. Additionally, we'll explore the visualization of statistical power, enhancing your intuition about sample sizes and effect magnitudes.
+
+By the end of this article, you'll have a richer toolkit for conducting sophisticated AB tests using NumPy's powerful random functions, enabling more insightful and efficient statistical modeling in your work.
