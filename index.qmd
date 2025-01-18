@@ -15,11 +15,11 @@ jupyter: python3
 ---
 
 
-# Introduction:
+# Expand Your Toolkit
 
+The goal of this paper is to continue to build on our last paper, [The Power of Data Simulation](https://rzaliznyak-math.github.io/random/){target="_blank"}.
 
-Building on our previous article [The Power of Data Simulation](https://rzaliznyak-math.github.io/random/){target="_blank"}, we will explore more practical applications of NumPy's random number generation for AB Testing. 
+By the end of this paper you will be able to simulate distributions and understand p-values, crucial concepts in AB Testing.
+You'll learn how to generate millions of time-series simulations for A/B tests in just seconds. You'll discover how to visualize statistical power, enhancing your intuition for sample sizes and effect size magnitudes.
 
-You'll learn to simulate distributions and understand p-values, crucial concepts in statistical analysis. We'll show how to rapidly generate millions of time-series simulations for A/B tests in just seconds. And we'll explore the visualization of statistical power, enhancing your intuition about sample sizes and effect magnitudes.
-
-By the end of this article, you'll have a richer toolkit for conducting sophisticated AB tests using NumPy's powerful random functions, enabling more insightful and efficient statistical modeling in your work.
+You'll have a deeper toolkit for conducting AB tests using NumPy's powerful random functions, enabling more insightful statistical modeling in your work.
