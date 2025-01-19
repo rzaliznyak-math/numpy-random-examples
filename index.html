@@ -49,6 +49,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#expand-your-toolkit" id="toc-expand-your-toolkit" class="nav-link active" data-scroll-target="#expand-your-toolkit">Expand Your Toolkit</a></li>
+  <li><a href="#traditional-signifigance-test" id="toc-traditional-signifigance-test" class="nav-link" data-scroll-target="#traditional-signifigance-test">Traditional Signifigance Test</a></li>
+  <li><a href="#null-distributions" id="toc-null-distributions" class="nav-link" data-scroll-target="#null-distributions">Null Distributions</a></li>
   </ul>
 </nav>
 </div>
@@ -91,6 +93,19 @@ ul.task-list li input[type="checkbox"] {
 <p>The goal of this paper is to continue to build on our last paper, <a href="https://rzaliznyak-math.github.io/random/" target="_blank">The Power of Data Simulation</a>.</p>
 <p>By the end of this paper you will be able to simulate distributions and understand p-values, crucial concepts in AB Testing. You’ll learn how to generate millions of time-series simulations for A/B tests in just seconds. You’ll discover how to visualize statistical power, enhancing your intuition for sample sizes and effect size magnitudes.</p>
 <p>You’ll have a deeper toolkit for conducting AB tests using NumPy’s powerful random functions, enabling more insightful statistical modeling in your work.</p>
+</section>
+<section id="traditional-signifigance-test" class="level1">
+<h1>Traditional Signifigance Test</h1>
+<p>When we kick off a traditional A/B <em>significance test</em>, we make a big assumption that our two test conditions perform equally.</p>
+<ol type="1">
+<li><p>We gather evidence by accumulating samples and then calculate a <em>p-value</em>. This value estimates the probability of seeing our results (or more extreme), given equality between our two test conditions.</p></li>
+<li><p>If the p-value is low enough, we are forced to conclude that are our test conditions are not equal. (<em>Statistically Significant</em>)</p></li>
+</ol>
+<p>In order to perform this analysis, we need to build a <em>Null Distribution</em> — this distribution reveals what results we SHOULD expect to see assuming there is no difference between test conditions.</p>
+</section>
+<section id="null-distributions" class="level1">
+<h1>Null Distributions</h1>
+<p>CODE HERE</p>
 </section>
 
 </main>

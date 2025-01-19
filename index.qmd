@@ -23,3 +23,17 @@ By the end of this paper you will be able to simulate distributions and understa
 You'll learn how to generate millions of time-series simulations for A/B tests in just seconds. You'll discover how to visualize statistical power, enhancing your intuition for sample sizes and effect size magnitudes.
 
 You'll have a deeper toolkit for conducting AB tests using NumPy's powerful random functions, enabling more insightful statistical modeling in your work.
+
+# Traditional Signifigance Test
+
+When we kick off a traditional A/B *significance test*, we make a big assumption that our two test conditions perform equally.
+
+1. We gather evidence by accumulating samples and then calculate a *p-value*. This value estimates the probability of seeing our results (or more extreme), given equality between our two test conditions.
+
+2. If the p-value is low enough, we are forced to conclude that are our test conditions are not equal. (*Statistically Significant*)
+
+In order to perform this analysis, we need to build a *Null Distribution* --- this distribution reveals what results we SHOULD expect to see assuming there is no difference between test conditions.
+
+# Null Distributions
+
+CODE HERE
